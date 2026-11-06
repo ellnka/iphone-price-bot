@@ -1,0 +1,23 @@
+{
+  "name": "iphone-price-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram-бот, що моніторить ціни на iPhone (OLX.ua, Hotline.ua) і надсилає найвигідніші пропозиції",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/main.ts",
+    "dry": "node --env-file-if-exists=.env src/main.ts --dry-run",
+    "loop": "node --env-file-if-exists=.env src/main.ts --loop 30",
+    "probe": "node --env-file-if-exists=.env scripts/probe.ts",
+    "chat-id": "node --env-file-if-exists=.env scripts/chat-id.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^6.0.0"
+  }
+}

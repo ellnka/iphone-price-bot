@@ -1,0 +1,58 @@
+{
+  "filter": {
+    "models": [
+      "iphone 17 pro 256gb"
+    ],
+    "condition": "new",
+    "ignoreEsim": true
+  },
+  "olx": {
+    "enabled": true,
+    "queries": [
+      "iphone 17 pro 256"
+    ],
+    "categoryId": 85,
+    "pages": 2,
+    "pageSize": 50,
+    "minPrice": 20000,
+    "skipBusiness": false,
+    "skipDefects": true
+  },
+  "rozetka": {
+    "enabled": true,
+    "queries": [
+      "apple iphone 17 pro 256gb"
+    ]
+  },
+  "prom": {
+    "enabled": true,
+    "queries": [
+      "iphone 17 pro 256gb"
+    ],
+    "pages": 5
+  },
+  "hotline": {
+    "enabled": true,
+    "urls": [
+      "https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/apple-iphone-17-pro-256gb-silver/",
+      "https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/apple-iphone-17-pro-256gb-cosmic-orange/",
+      "https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/apple-iphone-17-pro-256gb-deep-blue/",
+      "https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/apple-iphone-17-pro-256gb-esim-silver/",
+      "https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/apple-iphone-17-pro-256gb-esim-cosmic-orange/",
+      "https://hotline.ua/ua/mobile-mobilnye-telefony-i-smartfony/apple-iphone-17-pro-256gb-esim-deep-blue/"
+    ],
+    "minDrop": 0.03
+  },
+  "deals": {
+    "minDiscount": 0.2,
+    "minDiscountVsShops": 0.05,
+    "maxDiscount": 0.3,
+    "bestMinDrop": 0.02,
+    "minSamples": 6,
+    "windowDays": 7,
+    "maxPerRun": 5,
+    "renotifyDrop": 0.03
+  },
+  "watch": [],
+  "requestDelayMs": 2500
+}

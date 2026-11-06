@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "id": 939996702,
+      "url": "https://www.olx.ua/d/uk/obyavlenie/iphone-16-pro-max-512-gb-ID11C858.html",
+      "title": "iPhone 16 pro max 512 gb",
+      "created_time": "2026-11-05T23:05:52+02:00",
+      "last_refresh_time": "2026-11-05T23:09:29+02:00",
+      "category": { "id": 85, "type": "electronics" },
+      "params": [
+        { "key": "price", "name": "Ціна за 1 шт.", "type": "price", "value": { "value": 32500, "type": "price", "arranged": false, "budget": false, "currency": "UAH", "negotiable": false, "converted_value": null, "previous_value": null, "converted_previous_value": null, "converted_currency": null, "label": "32 500 грн.", "previous_label": null } },
+        { "key": "state", "name": "Стан", "type": "select", "value": { "key": "used", "label": "Вживане" } }
+      ],
+      "business": false,
+      "user": { "id": 29810783, "name": "Євген" },
+      "location": { "city": { "id": 268, "name": "Київ", "normalized_name": "kiev" } },
+      "promotion": { "highlighted": false, "urgent": false, "top_ad": false }
+    },
+    {
+      "id": 939511960,
+      "url": "https://www.olx.ua/d/uk/obyavlenie/iphone-16-pro-max-256gb-neverlock-ID11A111.html",
+      "title": "Iphone 16 Pro max, 256gb Neverlock",
+      "created_time": "2026-10-31T23:34:17+02:00",
+      "category": { "id": 85, "type": "electronics" },
+      "params": [
+        { "key": "price", "value": { "value": 34000, "arranged": false, "currency": "UAH", "negotiable": false, "converted_value": null, "previous_value": 36000, "converted_previous_value": null } },
+        { "key": "state", "value": { "key": "used", "label": "Вживане" } }
+      ],
+      "business": true,
+      "user": { "id": 111 },
+      "location": { "city": { "name": "Львів" } }
+    },
+    {
+      "id": 939971626,
+      "url": "https://www.olx.ua/d/uk/obyavlenie/sklo-ID11B222.html",
+      "title": "Скло на iphone 16 pro з ефектом антишпигун",
+      "category": { "id": 3279, "type": "electronics" },
+      "params": [
+        { "key": "price", "value": { "value": 300, "currency": "UAH", "converted_value": null } },
+        { "key": "state", "value": { "key": "new", "label": "Нове" } }
+      ],
+      "business": false,
+      "user": { "id": 222 }
+    },
+    {
+      "id": 939000001,
+      "url": "https://www.olx.ua/d/uk/obyavlenie/usd-ID1.html",
+      "title": "iPhone 15 Pro 256GB новий запакований",
+      "category": { "id": 85 },
+      "params": [
+        { "key": "price", "value": { "value": 800, "currency": "USD", "converted_value": 33200, "previous_value": null, "converted_previous_value": null } },
+        { "key": "state", "value": { "key": "new", "label": "Нове" } }
+      ],
+      "business": false,
+      "user": { "id": 333 }
+    },
+    {
+      "id": 939000002,
+      "url": "https://www.olx.ua/d/uk/obyavlenie/arranged-ID2.html",
+      "title": "iPhone 14 128 обмін",
+      "category": { "id": 85 },
+      "params": [
+        { "key": "price", "value": { "value": null, "arranged": true, "currency": "UAH" } }
+      ],
+      "user": { "id": 444 }
+    }
+  ],
+  "metadata": { "total_elements": 5, "visible_total_count": 5 },
+  "links": { "self": { "href": "https://www.olx.ua/api/v1/offers?offset=0" } }
+}
